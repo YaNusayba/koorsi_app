@@ -82,7 +82,7 @@ const ForgotPasswordScreen = () => {
         <AuthWrapper theme={theme} glowColor={theme.accentSoft}>
             <AuthHeader
                 title="Mot de passe oublié ?"
-                subtitle="Pas de panique. Entre ton email et on t'envoie un lien pour le réinitialiser."
+                subtitle="Renseigner l'adresse e-mail à laquelle envoyez le mail."
                 onBack={goToLogin}
                 theme={theme}
                 accentColor={theme.accent}
